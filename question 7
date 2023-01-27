@@ -1,0 +1,5 @@
+print ("The numbers which are multiple of 7 and divisible by 11 in the range (1,500) are : " )
+
+for i in range (7,501,7):
+  if i%11==0:
+    print (i)
