@@ -1,0 +1,15 @@
+list_=[]
+print ("u have to input me some words where repetition is allowed \n")
+n=int(input ("how many words u want to give input\n"))
+for i in range (n):
+  list_.append(input (f"enter the {i+1}th word\n" ))
+  print ()
+
+# occurrence of each number
+list_. sort ()
+print ( )
+for j in range (n):
+  if list_[j-1]==list_[j]  and j>0:
+   continue
+  else:
+    print (f"occurrence of {list_[j]} = {list_.count(list_[j])}" )
