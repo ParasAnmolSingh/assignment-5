@@ -1,0 +1,17 @@
+n=int(input ("enter ur desired number\n"))
+x=0
+if n%2!=0:
+ x=(n+1)/2
+else:
+  x=n/2
+a=0
+print ()
+for i in range (n):
+   if i<x:
+     a=i+1
+   else :
+      a=n-i
+     
+   for j in range (a):
+      print ("*   ",end=""  )
+   print ("\n" )
