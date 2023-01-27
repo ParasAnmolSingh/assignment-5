@@ -1,0 +1,7 @@
+string=input ("kindly enter the desired string\n")
+i=len(string)-1
+ans=""
+while i>-1:
+  ans+=string [i]
+  i-=1
+print (ans)
