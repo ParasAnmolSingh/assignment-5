@@ -1,0 +1,43 @@
+print ("u have to input me 10 integers\n" )
+arr=[]
+for i in range (10):
+ print (f"enter {i+1}th number")
+ arr. append (int(input ()))
+ print ()
+
+# posii numbers
+print ("list of +ve numbers : ",end="" )
+for j in arr:
+  if j>0:
+   print (j,end="   " )
+print ()
+ 
+#-ve numbers
+print ("list of -ve numbers : ",end="" )
+for j in arr:
+  if j<0:
+   print (j,end="   " )
+print ()
+
+# odd numbers
+print ("list of odd numbers : ",end="" )
+for j in arr:
+  if j%2!=0:
+   print (j,end="   " )
+print ()
+
+# even numbers
+print ("list of even numbers : ",end="" )
+for j in arr:
+  if j%2==0:
+   print (j,end="   " )
+print ()
+
+# occurrence of each number
+arr. sort ()
+print ( )
+for j in range (10):
+  if arr[j-1]==arr[j]  and j>0:
+   continue
+  else:
+    print (f"occurrence of {arr[j]} = {arr.count(arr[j])}" )
