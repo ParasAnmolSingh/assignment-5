@@ -1,0 +1,7 @@
+print ("enter the lower limit of ur range" )
+x=int(input ())
+y=int(input ("enter upper limit of ur range\n"))
+n=int(input ("enter the number  "))
+for i in range (x,y+1):
+  if i%n==0:
+   print (i)
