@@ -1,0 +1,11 @@
+import math
+
+a=int(input ("enter the 1st side of ur triangle\n") )
+b=int(input ("enter the 2nd side of ur triangle\n" ))
+c=int(input ("enter the 3rd side of ur triangle\n" ))
+s=(a+b+c)/2
+area=math. sqrt(s*(s-a)(s-b)(s-c))
+if area<=0:
+  print ("No such triangle is possible" )
+else:
+  print (f"area =  {round (area,3)}")
